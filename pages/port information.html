@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Port Information</title>
+  <link rel="stylesheet" href="../css/style(1).css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+</head>
+
+<body>
+  <div class="port-information-page-wrapper">
+    <section class="navbar-section">
+      <nav class="navbar" style="position: fixed; padding: 14px 14px;">
+        <a href="index.html" class="logo"><img src="../assets/images/Logo.png"></a>
+        <div class="menu-icon">
+          <i class="fa fa-bars"></i>
+        </div>
+        <ul class="nav">
+          <li class="nav-item"><a href="index.html" class="active">Home</a></li>
+          <li class="nav-item"><a href="about.html">About Us</a></li>
+          <li class="nav-item"><a href="cruise services.html">Cruise Services</a></li>
+          <li class="nav-item"><a href="port information.html">Port Information</a></li>
+          <li class="nav-item"><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </section>
+    <section class="page-image-section">
+      <img src="../assets/images/port info hero.png" alt="" />
+    </section>
+    <section class="ports-info-tabs-section container py-5">
+
+      <div class="tabs-section-heading py-5">
+        <h1>Details about the ports in Jamaica</h1>
+        <div class="port-heading-text">
+          <img src="../assets/images/Jamaica.svg" alt="">
+        </div>
+        <div class="port-heading-sky-blue-line">
+          <img src="../assets/images/sky blue line.svg" alt="">
+        </div>
+      </div>
+      <div class="tabs-info-tabs-wrapper d-flex">
+        <div class="port-number d-flex gap-1 justify-content-center align-items-center">
+          <!-- <span>Port 1</span>
+            <img src="../assets/images/dropdown arrow.svg" alt="" /> -->
+          <select name="" id="" class="port-dropdown">
+            <option value="Port1">Port 1</option>
+            <option value="Port2">Port 2</option>
+            <option value="Port3">Port 3</option>
+            <option value="Port4">Port 4</option>
+            <option value="Port5">Port 5</option>
+          </select>
+          <div class="gray-border"></div>
+
+        </div>
+        <div class="tabs-inner-wrapper">
+          <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'Overview')">Overview</button>
+            <button class="tablinks" onclick="openCity(event, 'Cabins')">Cabins</button>
+            <button class="tablinks" onclick="openCity(event, 'Dining')">Dining</button>
+            <button class="tablinks" onclick="openCity(event, 'Entertainment')">Entertainment</button>
+
+          </div>
+
+          <!-- Tab content -->
+          <div id="Overview" class="tabcontent">
+            <div id="" class=" overview-tab d-flex gap-1 mt-5">
+              <div class="overview-tab-border"></div>
+              <div class="overview-tab-content d-flex flex-column justify-content-center">
+                <h3>Port Royal Cruise Port</h3>
+                <p>
+                  Historic Naval Dockyard in Port Royal (Port Royal, Kingston 1)
+                </p>
+                <div class="main-content mt-5">
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s
+                  </p>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s Lorem Ipsum is
+                    simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever
+                    since the 1500s
+                  </p>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s Lorem Ipsum is
+                    simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever
+                    since the 1500s
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="Cabins" class="tabcontent">
+            <div id="" class=" overview-tab d-flex gap-1 mt-5">
+              <div class="overview-tab-border"></div>
+              <div class="overview-tab-content d-flex flex-column justify-content-center">
+                <h3>Port Royal Cruise Port</h3>
+                <p>
+                  Historic Naval Dockyard in Port Royal (Port Royal, Kingston 2)
+                </p>
+                <div class="main-content mt-5">
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s
+                  </p>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s Lorem Ipsum is
+                    simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever
+                    since the 1500s
+                  </p>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s Lorem Ipsum is
+                    simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever
+                    since the 1500s
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="Dining" class="tabcontent">
+            <div id="" class=" overview-tab d-flex gap-1 mt-5">
+              <div class="overview-tab-border"></div>
+              <div class="overview-tab-content d-flex flex-column justify-content-center">
+                <h3>Port Royal Cruise Port</h3>
+                <p>
+                  Historic Naval Dockyard in Port Royal (Port Royal, Kingston 3)
+                </p>
+                <div class="main-content mt-5">
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s
+                  </p>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s Lorem Ipsum is
+                    simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever
+                    since the 1500s
+                  </p>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s Lorem Ipsum is
+                    simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever
+                    since the 1500s
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="Entertainment" class="tabcontent">
+            <div id="" class=" overview-tab d-flex gap-1 mt-5">
+              <div class="overview-tab-border"></div>
+              <div class="overview-tab-content d-flex flex-column justify-content-center">
+                <h3>Port Royal Cruise Port</h3>
+                <p>
+                  Historic Naval Dockyard in Port Royal (Port Royal, Kingston 4)
+                </p>
+                <div class="main-content mt-5">
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s
+                  </p>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s Lorem Ipsum is
+                    simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever
+                    since the 1500s
+                  </p>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s Lorem Ipsum is
+                    simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever
+                    since the 1500s
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+
+      <div class="ports-images-wrapper py-5">
+        <div class="port-info-tag">
+          <img src="../assets/images/port page tag.svg" alt="">
+        </div>
+        <div class="my-carousel-container">
+          <div class="my-carousel-wrapper">
+            <div class="my-carousel-slide">
+              <img src="../assets/images/port 1.png" alt="">
+            </div>
+            <div class="my-carousel-slide">
+              <img src="../assets/images/port 2.png" alt="">
+            </div>
+            <div class="my-carousel-slide">
+              <img src="../assets/images/port 3.png" alt="">
+            </div>
+            <div class="my-carousel-slide">
+              <img src="../assets/images/port 4.png" alt="">
+            </div>
+            <div class="my-carousel-slide">
+              <img src="../assets/images/port 3.png" alt="">
+            </div>
+            <div class="my-carousel-slide">
+              <img src="../assets/images/port 2.png" alt="">
+            </div>
+            <div class="my-carousel-slide">
+              <img src="../assets/images/port 4.png" alt="">
+            </div>
+            <!-- Add more my-carousel-slide divs for additional images -->
+          </div>
+          <div class="my-carousel-navigation">
+            <button id="myPrevBtn">
+              <img src="../assets/images/prev arrow.svg" alt="">
+            </button>
+            <button id="myNextBtn">
+              <img src="../assets/images/prev arrow.svg" alt="" style="rotate: 180deg;">
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="slideshow-container port-info-slideshow">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides">
+          <div class="first-slides d-flex justify-content-center gap-3">
+            <img src="../assets/images/port 1.png" alt="">
+            <img src="../assets/images/port 2.png" alt="">
+            <img src="../assets/images/port 3.png" alt="">
+            <img src="../assets/images/port 4.png" alt="">
+          </div>
+        </div>
+
+        <div class="mySlides">
+          <div class="second-slides d-flex justify-content-center gap-3">
+            <img src="../assets/images/port 3.png" alt="">
+            <img src="../assets/images/port 2.png" alt="">
+            <img src="../assets/images/port 4.png" alt="">
+            <img src="../assets/images/port 1.png" alt="">
+          </div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <div class="port-info-arrows-controls d-flex gap-5 justify-content-center mt-5">
+          <a class="prev" onclick="plusSlides(-1)">
+            <img src="../assets/images/prev arrow.svg" alt="">
+          </a>
+          <a class="next" onclick="plusSlides(1)">
+            <img src="../assets/images/prev arrow.svg" alt="" style="rotate: 180deg;">
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="port-facilities-section-outer-wrapper py-5">
+      <div class="facilities-inner-wrapper container">
+        <div class="facilities-section-heading">
+          <h2 class="text-white text-center py-5">
+            Port Facilites And Services
+          </h2>
+          <div class="port-text-image d-flex justify-content-center">
+            <img src="../assets/images/Port.svg" alt="" />
+          </div>
+          <div class="facility-sky-blue-line d-flex justify-content-center">
+            <img src="../assets/images/sky blue line.svg" alt="" />
+          </div>
+        </div>
+        <div class="facilities-items-wrapper">
+          <div class="row">
+            <div class="col-lg-3">
+              <div class="facility-single-item-info">
+                <div class="single-item-heading d-flex justify-content-between">
+                  <h3>Lorem Ipsum Dummy</h3>
+                  <img src="../assets/images/small ship.svg" alt="" />
+                </div>
+                <div class="facility-border"></div>
+                <div class="facility-single-item-content">
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="facility-single-item-info">
+                <div class="single-item-heading d-flex justify-content-between">
+                  <h3>Lorem Ipsum Dummy</h3>
+                  <img src="../assets/images/small ship.svg" alt="" />
+                </div>
+                <div class="facility-border"></div>
+                <div class="facility-single-item-content">
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="facility-single-item-info">
+                <div class="single-item-heading d-flex justify-content-between">
+                  <h3>Lorem Ipsum Dummy</h3>
+                  <img src="../assets/images/small ship.svg" alt="" />
+                </div>
+                <div class="facility-border"></div>
+                <div class="facility-single-item-content">
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="facility-single-item-info">
+                <div class="single-item-heading d-flex justify-content-between">
+                  <h3>Lorem Ipsum Dummy</h3>
+                  <img src="../assets/images/small ship.svg" alt="" />
+                </div>
+                <div class="facility-border"></div>
+                <div class="facility-single-item-content">
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="bottom-items mt-5">
+              <div class="row">
+                <div class="col-lg-3">
+                  <div class="facility-single-item-info">
+                    <div class="single-item-heading d-flex justify-content-between">
+                      <h3>Lorem Ipsum Dummy</h3>
+                      <img src="../assets/images/small ship.svg" alt="" />
+                    </div>
+                    <div class="facility-border"></div>
+                    <div class="facility-single-item-content">
+                      <p>
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="facility-single-item-info">
+                    <div class="single-item-heading d-flex justify-content-between">
+                      <h3>Lorem Ipsum Dummy</h3>
+                      <img src="../assets/images/small ship.svg" alt="" />
+                    </div>
+                    <div class="facility-border"></div>
+                    <div class="facility-single-item-content">
+                      <p>
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="facility-single-item-info">
+                    <div class="single-item-heading d-flex justify-content-between">
+                      <h3>Lorem Ipsum Dummy</h3>
+                      <img src="../assets/images/small ship.svg" alt="" />
+                    </div>
+                    <div class="facility-border"></div>
+                    <div class="facility-single-item-content">
+                      <p>
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="facility-single-item-info">
+                    <div class="single-item-heading d-flex justify-content-between">
+                      <h3>Lorem Ipsum Dummy</h3>
+                      <img src="../assets/images/small ship.svg" alt="" />
+                    </div>
+                    <div class="facility-border"></div>
+                    <div class="facility-single-item-content">
+                      <p>
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="mobile-carousel">
+
+          <div class="custom-carousel-container">
+            <div class="custom-carousel-wrapper">
+              <div class="custom-carousel-slide">
+                <div class="facility-single-item">
+                  <div class="single-item-heading d-flex justify-content-between">
+                    <h3>Lorem Ipsum Dummy</h3>
+                    <img src="../assets/images/small ship.svg" alt="" />
+                  </div>
+                  <div class="facility-border"></div>
+                  <div class="facility-single-item-content">
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="custom-carousel-slide">
+                <div class="facility-single-item">
+                  <div class="single-item-heading d-flex justify-content-between">
+                    <h3>Lorem Ipsum Dummy</h3>
+                    <img src="../assets/images/small ship.svg" alt="" />
+                  </div>
+                  <div class="facility-border"></div>
+                  <div class="facility-single-item-content">
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="custom-carousel-slide">
+                <div class="facility-single-item">
+                  <div class="single-item-heading d-flex justify-content-between">
+                    <h3>Lorem Ipsum Dummy</h3>
+                    <img src="../assets/images/small ship.svg" alt="" />
+                  </div>
+                  <div class="facility-border"></div>
+                  <div class="facility-single-item-content">
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="custom-carousel-slide">
+                <div class="facility-single-item">
+                  <div class="single-item-heading d-flex justify-content-between">
+                    <h3>Lorem Ipsum Dummy</h3>
+                    <img src="../assets/images/small ship.svg" alt="" />
+                  </div>
+                  <div class="facility-border"></div>
+                  <div class="facility-single-item-content">
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="custom-carousel-slide">
+                <div class="facility-single-item">
+                  <div class="single-item-heading d-flex justify-content-between">
+                    <h3>Lorem Ipsum Dummy</h3>
+                    <img src="../assets/images/small ship.svg" alt="" />
+                  </div>
+                  <div class="facility-border"></div>
+                  <div class="facility-single-item-content">
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Add more custom-carousel-slide divs for additional slides -->
+            </div>
+            <!-- Next and previous buttons -->
+            <div class="custom-arrows-controls">
+              <a class="custom-prev" onclick="plusSlides(-1)">
+                <!-- Previous arrow icon --><img src="../assets/images/left arrow dark.svg" alt="">
+              </a>
+              <a class="custom-next" onclick="plusSlides(1)">
+                <img src="../assets/images/left arrow dark.svg" alt="" style="rotate: 180deg;">
+              </a>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+          <br />
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="procedure-section-wrapper py-5 container">
+        <div class="row flex-reverse">
+          <div class="col-lg-6">
+            <div class="procedure-section-image">
+              <img src="../assets/images/procedure hero.png" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="procedure-content-section-wrapper">
+              <div class="procedure-section-heading mt-5">
+                <h2 class="text-center">
+                  Customs and immigration procedures
+                </h2>
+                <div class="procedure-text-image">
+                  <img src="../assets/images/Procedures.svg" alt="" />
+                </div>
+                <div class="procedure-sky-blue-line">
+                  <img src="../assets/images/sky blue line.svg" alt="" />
+                </div>
+              </div>
+              <div class="procedure-content-section mt-5">
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s
+                </p>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s Lorem Ipsum is
+                  simply dummy text of the printing and typesetting industry.
+                </p>
+              </div>
+              <div class="procedure-content-section-items">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="procedure-single-item-head d-flex justify-content-between">
+                      <h3>
+                        Via <br />
+                        Consultation
+                      </h3>
+                      <img src="../assets/images/consultation icon.svg" alt="" />
+                    </div>
+                    <div class="consultation-border my-3"></div>
+                    <p class="consultation-item-text">
+                      Lorem Ipsum is simply dummy text of the printing &
+                      typesetting industry.
+                    </p>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="procedure-single-item-head d-flex justify-content-between">
+                      <h3>
+                        Consultation <br />
+                        Agency
+                      </h3>
+                      <img src="../assets/images/consultation agency icon.svg" alt="" />
+                    </div>
+                    <div class="consultation-border my-3"></div>
+                    <p class="consultation-item-text">
+                      Lorem Ipsum is simply dummy text of the printing &
+                      typesetting industry.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img class="pin-image" src="../assets/images/pin image dotted.svg" alt="" />
+      </div>
+    </section>
+    <section class="safety-measures-section py-5 container">
+      <div class="safety-section-heading mt-5">
+        <h2 class="text-center">Safety And Security Measures</h2>
+        <div class="safety-text-image">
+          <img src="../assets/images/Measures.svg" alt="" />
+        </div>
+        <div class="safety-sky-blue-line">
+          <img src="../assets/images/sky blue line.svg" alt="" />
+        </div>
+      </div>
+      <div class="safety-items-section mt-5">
+        <div class="row">
+          <div class="col-lg-4 d-flex gap-1 safety-item-outer-wrapper">
+            <div class="safety-single-item">
+              <div class="single-item-icon d-flex justify-content-center">
+                <img src="../assets/images/health icon.svg" alt="" />
+              </div>
+              <div class="safety-item-content">
+                <h3>01. Lorem Ipsum Dummy</h3>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing &
+                  typesetting industry.
+                </p>
+              </div>
+            </div>
+            <div class="safety-item-border"></div>
+          </div>
+          <div class="col-lg-4 d-flex gap-1 safety-item-outer-wrapper">
+            <div class="safety-single-item">
+              <div class="single-item-icon d-flex justify-content-center">
+                <img src="../assets/images/health icon.svg" alt="" />
+              </div>
+              <div class="safety-item-content">
+                <h3>01. Lorem Ipsum Dummy</h3>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing &
+                  typesetting industry.
+                </p>
+              </div>
+            </div>
+            <div class="safety-item-border"></div>
+          </div>
+
+          <div class="col-lg-4 d-flex gap-1 safety-item-outer-wrapper">
+            <div class="safety-single-item">
+              <div class="single-item-icon d-flex justify-content-center">
+                <img src="../assets/images/health icon.svg" alt="" />
+              </div>
+              <div class="safety-item-content">
+                <h3>01. Lorem Ipsum Dummy</h3>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing &
+                  typesetting industry.
+                </p>
+              </div>
+            </div>
+            <div class="safety-item-border"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-outer-wrapper py-5 mt-5">
+        <div class="footer-inner-wrapper container">
+          <div class="row">
+            <div class="col-lg-3">
+              <div class="footer-section-1 d-flex flex-column gap-3">
+                <div class="footer-logo">
+                  <img src="../assets/images/FooterLogo.png" alt="footer logo" style="width: 150px" />
+                </div>
+                <div class="footer-text">
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text.
+                  </p>
+                </div>
+                <div class="border-line"></div>
+                <div class="social-icons">
+                  <span>Social Media</span>
+                  <div class="social-logos mt-3 d-flex gap-3">
+                    <a href="/"><img src="../assets/images/facebook.svg" alt="" /></a>
+                    <a href="/"><img src="../assets/images/instagram.svg" alt="" /></a>
+                    <a href="/"><img src="../assets/images/youtube.svg" alt="" /></a>
+                    <a href="/"><img src="../assets/images/X icon.svg" alt="" /></a>
+                  </div>
+                </div>
+                <div class="border-line-2"></div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="footer-section-2">
+                <div class="section-heading">
+                  <span>Quick Links</span>
+                  <div></div>
+                </div>
+                <div class="list-items">
+                  <ul>
+                    <li><a href="/">About Us</a></li>
+                    <li><a href="/about.html">Statistics</a></li>
+                    <li><a href="/">Our Business in Brief</a></li>
+                    <li><a href="/">Business Portal</a></li>
+                    <li><a href="/">FAQs</a></li>
+                  </ul>
+                </div>
+                <div class="border-line-2"></div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="footer-section-3">
+                <div class="section-heading">
+                  <span>Key Partners</span>
+                  <div></div>
+                </div>
+                <div class="list-items">
+                  <ul>
+                    <li><a href="/">Jamaica Customs Agency</a></li>
+                    <li>
+                      <a href="/about.html">Shipping Association of Jamaica</a>
+                    </li>
+                    <li><a href="/">Special Economic Zones</a></li>
+                    <li><a href="/">Port Community Systems</a></li>
+                    <li><a href="/">eGov Jamaica</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="border-line-3 mb-3"></div>
+              <div class="footer-section-4">
+                <div class="section-heading">
+                  <span>Contact Info</span>
+                  <div></div>
+                </div>
+                <div class="list-items">
+                  <ul>
+                    <li>
+                      <div class="d-flex gap-3">
+                        <div class="section4-icon">
+                          <a href="/"><img src="../assets/images/location icon.svg" alt="" /></a>
+                        </div>
+                        <a href="/">+123-456-7990</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="d-flex gap-3">
+                        <div class="section4-icon">
+                          <a href="/"><img src="../assets/images/email icon.svg" alt="" /></a>
+                        </div>
+                        <a href="/">Michelle.Rivera@Example.com</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="d-flex gap-3">
+                        <div class="section4-icon">
+                          <a href="/" class="d-flex"><img src="../assets/images/phone icon.svg" alt="" /></a>
+                        </div>
+                        <a href="/">2972 Westheimer Rd. Santa Ana, Illinois 85486
+                        </a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <button class="chatbot-btn">
+                  <div class="chatbot">
+
+                    <img src="../assets/images/chatbot.svg" alt="">
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+    </footer>
+    <div class="copyright-section py-1">
+      <p>
+        © Copyright Cruise Jamaica 2024 | All Rights Reserved | Powered by
+        Unicore Online
+      </p>
+    </div>
+  </div>
+  <script src="../js/script.js"></script>
+  <script src="../js/facility-carousel.js"></script>
+  <script src="../js/tabs.js"></script>
+  <script src="../js/testimonials.js"></script>
+  <script src="../js/info-items-carousel.js"></script>
+  <!-- <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script> -->
+</body>
+
+</html>

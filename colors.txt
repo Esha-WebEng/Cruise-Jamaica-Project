@@ -1,0 +1,2 @@
+#003B5D dark blue
+#59D6FF light blue

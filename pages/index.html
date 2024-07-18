@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>home</title>
+</head>
+<style>
+    .dropdown-toggle::after {
+        display: flex;
+        flex-direction: row;
+        color: white;
+        margin-left: .255em;
+        vertical-align: .255em;
+        content: "" !important;
+        border-top: .3em solid;
+        border-right: .3em solid transparent;
+        border-bottom: 0;
+        border-left: .3em solid transparent;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown .dropdown-btn {
+        padding: 0.5rem 2rem;
+        border-radius: 2rem;
+        border: 1px solid rgb(165, 161, 161);
+        cursor: pointer;
+        color: #003B5D;
+        background-color: white;
+    }
+
+    .dropdown .dropdown-text {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .dropdown-menu {
+        border: none !important;
+        font-size: 1.4rem;
+        border-radius: 1.6rem;
+        background-color: white !important;
+
+    }
+
+    .dropdown-menu.show {
+        display: block !important;
+    }
+
+    .dropdown-menu i {
+        color: #003B5D !important;
+        padding-right: 0.2rem !important;
+
+    }
+
+    .dropdown-menu a {
+        color: #003B5D !important;
+
+    }
+</style>
+
+<body>
+    <div id="home">
+        <!-- <nav class="navbar">
+            <a href="home.html" class="logo">
+                <img src="assets/images/Logo.png" />
+            </a>
+            <div class="menu-icon">
+                <i class="fa fa-bars"></i>
+            </div>
+            <ul class="nav">
+                <li class="nav-item"><a href="home.html" class="active">Home</a></li>
+                <li class="nav-item"><a href="about.html">About Us</a></li>
+                <li class="nav-item">
+                    <a href="cruise services.html">Cruise Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="port information.html">Port Information</a>
+                </li>
+                <li class="nav-item"><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <div class="offcanvas" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                    <a href="home.html" class="logo">
+                        <img src="assets/images/Logo.png" />
+                    </a>
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="home.html" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="cruise services.html" class="nav-link">Cruise Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="port information.html" class="nav-link">Port Information</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div> -->
+        <nav class="navbar">
+            <a href="index.html" class="logo"><img src="../assets/images/Logo.png"></a>
+            <div class="menu-icon">
+                <i class="fa fa-bars"></i>
+            </div>
+            <ul class="nav">
+                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="about.html">About Us</a></li>
+                <li class="nav-item"><a href="cruise services.html">Cruise Services</a></li>
+                <li class="nav-item"><a href="port information.html">Port Information</a></li>
+                <li class="nav-item"><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <header class="header">
+            <video autoplay loop muted>
+                <source src="../assets/images/AdobeStock_273050343.mov" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <div class="content">
+                <div class="headings">
+                    <!-- <div class="heading-2">
+                        <img src="../assets/images/Search. Discover. Experience.png">
+                    </div> -->
+                    <h2 style="margin-left: 60px;">Search. Discover. Experience</h2>
+                    <h1>CRUISE JAMAICA</h1>
+                </div>
+                <div class="dropdown">
+                    <button class="dropdown-btn dropdown-toggle" data-bs-toggle="dropdown">
+                        <div class="dropdown-text">
+                            <p>Things to do around</p>
+                            <b>Select your Port of Entry<i class="fa fa-angle-down arrow"></i></b>
+                        </div>
+
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="thingsToDo.html"><i class="fa fa-map-marker-alt"></i> <b>Port of
+                                Montego
+                                Bay</b> <br>
+                            Mantica Way, Montego Bay</a>
+                        <a class="dropdown-item" href="thingsToDo.html"> <i class="fa fa-map-marker-alt"></i>
+                            <b>Historic Port of
+                                Falmouth
+                            </b><br> 2 King Street, Falmouth,
+                            Trelawny</a>
+                        <a class="dropdown-item" href="thingsToDo.html"> <i class="fa fa-map-marker-alt"></i> <b>Port of
+                                Ocho Rios</b>
+                            <br>
+                            (Turtle Beach Road, Ocho Rios)</a>
+                        <a class="dropdown-item" href="thingsToDo.html"> <i class="fa fa-map-marker-alt"></i> <b>Ken
+                                Wright Pier</b>
+                            <br> Wright
+                            Drive, Port Antonio, Portland</a>
+                        <a class="dropdown-item" href="thingsToDo.html"> <i class="fa fa-map-marker-alt"></i>
+                            <b>Historic Naval
+                                Dockyard in Port
+                                Royal</b> <br> Port Royal, Kingston</a>
+                    </div>
+                    <a class="search-btn" href="thingsToDo.html">Search</a>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="port">
+                <div class="ports">
+                    <h1>Port</h1>
+                    <!-- <div class="heading">
+                        <img src="../assets/images/Port.png">
+                    </div> -->
+                    <h2>Our Cruise Ports</h2>
+                    <div class="sky-blue">
+                        <img src="../assets/images/sky blue line.svg">
+                    </div>
+                    <p>Welcome to our guide on cruising to Jamaica! Jamaica is a Caribbean gem known for its vibrant
+                        culture,
+                        stunning beaches, and warm hospitality. As you plan your cruise itinerary, you'll encounter
+                        several
+                        ports in Jamaica, each offering its own unique attractions and experiences. From the historic
+                        charm
+                        of
+                        Falmouth to the bustling energy of Montego Bay and the laid-back vibe of Ocho Rios, there's
+                        something
+                        for every traveler to enjoy.</p>
+                </div>
+                <div class="located">
+                    <div class="port-map">
+                        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3785.248772782762!2d-77.91648578515794!3d18.46206267543298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8edb6071ef9ef5d7%3A0x89da3c1d5130d8e4!2sPort%20of%20Montego%20Bay!5e0!3m2!1sen!2suk!4v1642640121411!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
+                        <img src="../assets/images/map.png">
+                    </div>
+                    <div class="ports-content">
+                        <h4>Our Ports are located at</h4>
+                        <ol class="list">
+                            <li>Port of Montego Bay<br> (Mantica Way, Montego Bay)</li>
+                            <li>Historic Port of Falmouth<br> (2 King Street, P.O. Box 156, Falmouth, Trelawny, Jamaica
+                                W.I.)
+                            </li>
+                            <li>Port of Ocho Rios <br>(Turtle Beach Road, Ocho Rios)</li>
+                            <li>Ken Wright Pier and the adjoining Errol Flynn Marina in Port Antonio, Portland (PO Box
+                                188,
+                                Ken
+                                Wright Drive, Port Antonio, Portland)</li>
+                            <li>Historic Naval Dockyard in Port Royal<br> (Port Royal, Kingston 1)</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="tips">
+                <div class="travel">
+                    <div class="travel-tips">
+                        <!-- <h1>Travel</h1> -->
+                        <div class="heading">
+                            <img src="../assets/images/Travel.png">
+                        </div>
+                        <h2>Cruise Travel Tips</h2>
+                        <div class="sky-blue">
+                            <img src="../assets/images/sky blue line.svg">
+                        </div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry.</p>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry.
+                        </p>
+                    </div>
+                    <ul>
+                        <li>
+                            <img src="../assets/images/plan.png">
+                            <div class="tip">
+                                <h5>Plan and Book Early</h5>
+                                <p>Lorem Ipsum is simply dummy text
+                                    of the printing and typesetting industry.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="../assets/images/visa.png">
+                            <div class="tip">
+                                <h5>Check Passport and Visa requirements</h5>
+                                <p>Lorem Ipsum is simply dummy text
+                                    of the printing and typesetting industry.</p>
+                            </div>
+
+
+                        </li>
+                        <li>
+                            <img src="../assets/images/research.png">
+                            <div class="tip">
+                                <h5>Research Excursions</h5>
+                                <p>Lorem Ipsum is simply dummy text
+                                    of the printing and typesetting industry.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tips-image">
+                    <img src="../assets/images/women.png">
+                </div>
+
+            </div>
+            <div class="schedule my-carousel-container">
+                <h1>Cruise</h1>
+                <!-- <div class="heading">
+                    <img src="../assets/images/Cruises.png">
+                </div> -->
+                <h2>Schedule Of Upcomming Cruises</h2>
+                <div class="sky-blue">
+                    <img src="../assets/images/sky blue line.svg">
+                </div>
+                <div class="my-carousel-navigation">
+                    <!-- <div id="myPrevBtn"> -->
+                        <img src="../assets/images/left.png" class="prev" onclick="showSlide(-1)">
+                    <!-- </div> -->
+                    <!-- <div id="myNextBtn"> -->
+                        <img src="../assets/images/right.png" class="next" onclick="showSlide(1)">
+                    <!-- </div> -->
+                </div>
+                <div class="schedules my-carousel-wrapper">
+                    <div class="rectangle my-carousel-slide">
+                        <div class="data">
+                            <div class="line">
+                                <img src="../assets/images/Group 944.png">
+                            </div>
+                            <div class="date">
+                                <p>Mon <br> 19 MAY</p>
+                            </div>
+                            <div class="dots">
+                                <img src="../assets/images/Group 945.png">
+                            </div>
+                        </div>
+                        <div class="time">
+                            <p class="text">Lorem Ipsum is simply dummy text of the
+                                printing & typesetting industry. when an
+                                unknown printer took a galley</p>
+                            <p>Time : 8:00 AM</p>
+                            <p>Cruise Name : Royal Caribbean</p>
+                            <p>Venue : Lorem Ipsum, Abc Street,
+                                360005</p>
+                            <img class="image" src="../assets/images/Rectangle 103 (1).png">
+                        </div>
+
+                    </div>
+                    <div class="rectangle my-carousel-slide">
+                        <div class="data">
+                            <div class="line">
+                                <img src="../assets/images/Group 944.png">
+                            </div>
+                            <div class="date">
+                                <p>Mon <br> 19 MAY</p>
+                            </div>
+                            <div class="dots">
+                                <img src="../assets/images/Group 945.png">
+                            </div>
+                        </div>
+                        <div class="time">
+                            <p class="text">Lorem Ipsum is simply dummy text of the
+                                printing & typesetting industry. when an
+                                unknown printer took a galley</p>
+                            <p>Time : 8:00 AM</p>
+                            <p>Cruise Name : Royal Caribbean</p>
+                            <p>Venue : Lorem Ipsum, Abc Street,
+                                360005</p>
+                            <img class="image" src="../assets/images/Rectangle 103 (2).png">
+                        </div>
+
+                    </div>
+                    <div class="rectangle my-carousel-slide">
+                        <div class="data">
+                            <div class="line">
+                                <img src="../assets/images/Group 944.png">
+                            </div>
+                            <div class="date">
+                                <p>Mon</p>
+                                <p>19 MAY</p>
+                            </div>
+                            <div class="dots">
+                                <img src="../assets/images/Group 945.png">
+                            </div>
+                        </div>
+                        <div class="time">
+                            <p class="text">Lorem Ipsum is simply dummy text of the
+                                printing & typesetting industry. when an
+                                unknown printer took a galley</p>
+                            <p>Time : 8:00 AM</p>
+                            <p>Cruise Name : Royal Caribbean</p>
+                            <p>Venue : Lorem Ipsum, Abc Street,
+                                360005</p>
+                            <img class="image" src="../assets/images/Rectangle 103.png">
+                        </div>
+                    </div>
+                    <div class="rectangle my-carousel-slide">
+                        <div class="data">
+                            <div class="line">
+                                <img src="../assets/images/Group 944.png">
+                            </div>
+                            <div class="date">
+                                <p>Mon <br> 19 MAY</p>
+                            </div>
+                            <div class="dots">
+                                <img src="../assets/images/Group 945.png">
+                            </div>
+                        </div>
+                        <div class="time">
+                            <p class="text">Lorem Ipsum is simply dummy text of the
+                                printing & typesetting industry. when an
+                                unknown printer took a galley</p>
+                            <p>Time : 9:00 AM</p>
+                            <p>Cruise Name : Royal Caribbean</p>
+                            <p>Venue : Lorem Ipsum, Abc Street,
+                                360005</p>
+                            <img class="image" src="../assets/images/Rectangle 103 (1).png">
+                        </div>
+
+                    </div>
+                    <div class="rectangle my-carousel-slide">
+                        <div class="data">
+                            <div class="line">
+                                <img src="../assets/images/Group 944.png">
+                            </div>
+                            <div class="date">
+                                <p>Mon</p>
+                                <p>19 MAY</p>
+                            </div>
+                            <div class="dots">
+                                <img src="../assets/images/Group 945.png">
+                            </div>
+                        </div>
+                        <div class="time">
+                            <p class="text">Lorem Ipsum is simply dummy text of the
+                                printing & typesetting industry. when an
+                                unknown printer took a galley</p>
+                            <p>Time : 10:00 AM</p>
+                            <p>Cruise Name : Royal Caribbean</p>
+                            <p>Venue : Lorem Ipsum, Abc Street,
+                                360005</p>
+                            <img class="image" src="../assets/images/Rectangle.png">
+                        </div>
+                    </div>
+                    <div class="rectangle my-carousel-slide">
+                        <div class="data">
+                            <div class="line">
+                                <img src="../assets/images/Group 944.png">
+                            </div>
+                            <div class="date">
+                                <p>Mon</p>
+                                <p>19 MAY</p>
+                            </div>
+                            <div class="dots">
+                                <img src="../assets/images/Group 945.png">
+                            </div>
+                        </div>
+                        <div class="time">
+                            <p class="text">Lorem Ipsum is simply dummy text of the
+                                printing & typesetting industry. when an
+                                unknown printer took a galley</p>
+                            <p>Time : 11:00 AM</p>
+                            <p>Cruise Name : Royal Caribbean</p>
+                            <p>Venue : Lorem Ipsum, Abc Street,
+                                360005</p>
+                            <img class="image" src="../assets/images/Rectangle 103 (2).png">
+                        </div>
+                    </div>
+                    <div class="rectangle my-carousel-slide">
+                        <div class="data">
+                            <div class="line">
+                                <img src="../assets/images/Group 944.png">
+                            </div>
+                            <div class="date">
+                                <p>Mon</p>
+                                <p>19 MAY</p>
+                            </div>
+                            <div class="dots">
+                                <img src="../assets/images/Group 945.png">
+                            </div>
+                        </div>
+                        <div class="time">
+                            <p class="text">Lorem Ipsum is simply dummy text of the
+                                printing & typesetting industry. when an
+                                unknown printer took a galley</p>
+                            <p>Time : 1:00 AM</p>
+                            <p>Cruise Name : Royal Caribbean</p>
+                            <p>Venue : Lorem Ipsum, Abc Street,
+                                360005</p>
+                            <img class="image" src="../assets/images/Rectangle 103 (1).png">
+                        </div>
+                    </div>
+                    <div class="rectangle my-carousel-slide">
+                        <div class="data">
+                            <div class="line">
+                                <img src="../assets/images/Group 944.png">
+                            </div>
+                            <div class="date">
+                                <p>Mon</p>
+                                <p>19 MAY</p>
+                            </div>
+                            <div class="dots">
+                                <img src="../assets/images/Group 945.png">
+                            </div>
+                        </div>
+                        <div class="time">
+                            <p class="text">Lorem Ipsum is simply dummy text of the
+                                printing & typesetting industry. when an
+                                unknown printer took a galley</p>
+                            <p>Time : 2:00 AM</p>
+                            <p>Cruise Name : Royal Caribbean</p>
+                            <p>Venue : Lorem Ipsum, Abc Street,
+                                360005</p>
+                            <img class="image" src="../assets/images/Rectangle 103 (2).png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="thing">
+                <h5>Browse things to do before you arrive</h5>
+                <div class="arrive">
+                    <div class="previous" onclick="moveThingSlider(-1)">
+                        <img src="../assets/images/next.png">
+                    </div>
+                    <div class="things">
+
+                        <div class="stack">
+                            <img class="background-img" src="../assets/images/tour.png" alt="Background">
+                            <div class="top-text">Tours & Day Trips</div>
+                        </div>
+                        <div class="stack">
+                            <img class="background-img" src="../assets/images/water.png" alt="Background">
+                            <div class="top-text">Water Acvities</div>
+                        </div>
+                        <div class="stack">
+                            <img class="background-img" src="../assets/images/nature.png" alt="Background">
+                            <div class="top-text">Wildlife & Nature</div>
+                        </div>
+                        <div class="stack">
+                            <img class="background-img" src="../assets/images/boat.png" alt="Background">
+                            <div class="top-text">Cruises & Boat Tours</div>
+                        </div>
+                        <div class="stack">
+                            <img class="background-img" src="../assets/images/outdoor.png" alt="Background">
+                            <div class="top-text">Adventure & Outdoor</div>
+                        </div>
+                        <div class="stack">
+                            <img class="background-img" src="../assets/images/mountain.png" alt="Background">
+                            <div class="top-text">Tours & Day Trips</div>
+                        </div>
+                        <div class="stack">
+                            <img class="background-img" src="../assets/images/tour.png" alt="Background">
+                            <div class="top-text">Tours & Day Trips</div>
+                        </div>
+                        <div class="stack">
+                            <img class="background-img" src="../assets/images/outdoor.png" alt="Background">
+                            <div class="top-text">Adventure & Outdoor</div>
+                        </div>
+                        <div class="stack">
+                            <img class="background-img" src="../assets/images/outdoor.png" alt="Background">
+                            <div class="top-text">Tours & Day Trips</div>
+                        </div>
+                        <div class="stack">
+                            <img class="background-img" src="../assets/images/tour.png" alt="Background">
+                            <div class="top-text">Tours & Day Trips</div>
+                        </div>
+                        <div class="stack">
+                            <img class="background-img" src="../assets/images/outdoor.png" alt="Background">
+                            <div class="top-text">Tours & Day Trips</div>
+                        </div>
+                    </div>
+                    <div class="next" onclick="moveThingSlider(1)">
+                        <img src="../assets/images/next.png">
+                    </div>
+                </div>
+            </div>
+            <div class="Articles">
+                <div class="article-headings">
+                    <h1>Blog</h1>
+                    <!-- <div class="heading">
+                        <img src="../assets/images/Blogs.png">
+                    </div> -->
+                    <h2>Our Articles</h2>
+                    <div class="sky-blue">
+                        <img src="../assets/images/sky blue line.svg">
+                    </div>
+                </div>
+                <div class="articles">
+                    <div class="article">
+                        <img src="../assets/images/blog.png">
+                        <div class="article-content">
+                            <h6>Jamaica Customs revises its Special Declarations for Motor V...</h6>
+                            <p>In response to several client requests, a few changes have been made to the procedure
+                                re...
+                            </p>
+                            <hr>
+                        </div>
+                        <div class="more">
+                            <p><span>Read More</span><i class="fa-solid fa-arrow-right"></i></p>
+                            <p><i class="far fa-calendar"></i><span>06 Apr 2017</span> </p>
+                        </div>
+                    </div>
+                    <div class="article">
+                        <img src="../assets/images/officer.png">
+                        <div class="article-content">
+                            <h6>PAJ launches import module of port community system</h6>
+                            <p>PAJ launches import module of port community system. Professor Gordon Shirley,
+                                President a...
+                            </p>
+                            <hr>
+                        </div>
+                        <div class="more">
+                            <p><span>Read More</span><i class="fa-solid fa-arrow-right"></i></p>
+                            <p><i class="far fa-calendar"></i><span>06 Apr 2017</span> </p>
+                        </div>
+                    </div>
+                    <div class="blogs">
+                        <div class="blog">
+                            <img src="../assets/images/female (1).png">
+                            <div class="blog-content">
+                                <h6>Import Phase Of Port System Is A Go</h6>
+                                <p>The Port Authority of Jamaica has...</p>
+                                <hr>
+                                <div class="more">
+                                    <p><span>Read More</span><i class="fa-solid fa-arrow-right"></i></p>
+                                    <p><i class="far fa-calendar"></i><span>06 Apr 2017</span> </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog">
+                            <img src="../assets/images/pieces.png">
+                            <div class="blog-content">
+                                <h6>Customs Commissioner Says New Legal Framew...</h6>
+                                <p>Commissioner of Jamaica Custom...</p>
+                                <hr>
+                                <div class="more">
+                                    <p><span>Read More</span><i class="fa-solid fa-arrow-right"></i></p>
+                                    <p><i class="far fa-calendar"></i><span>06 Apr 2017</span> </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog">
+                            <img src="../assets/images/male.png">
+                            <div class="blog-content">
+                                <h6>JCA can be a global leader — Ricketts Walker</h6>
+                                <p>Velma Ricketts Walker, who now sit...</p>
+                                <hr>
+                                <div class="more">
+                                    <p><span>Read More</span><i class="fa-solid fa-arrow-right"></i></p>
+                                    <p><i class="far fa-calendar"></i><span>06 Apr 2017</span> </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-outer-wrapper py-2 mt-5">
+                <div class="footer-inner-wrapper container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="footer-section-1 d-flex flex-column gap-3">
+                                <div class="footer-logo">
+                                    <img src="../assets/images/FooterLogo.png" alt="footer logo">
+                                </div>
+                                <div class="footer-text">
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the printing and
+                                        typesetting industry. Lorem Ipsum has been the industry's
+                                        standard dummy text.
+                                    </p>
+                                </div>
+                                <div class="border-line"></div>
+                                <div class="social-icons">
+                                    <span>Social Media</span>
+                                    <div class="social-logos mt-3 d-flex gap-3">
+                                        <a href="/"><img src="../assets/images/facebook.svg" alt="" /></a>
+                                        <a href="/"><img src="../assets/images/instagram.svg" alt="" /></a>
+                                        <a href="/"><img src="../assets/images/youtube.svg" alt="" /></a>
+                                        <a href="/"><img src="../assets/images/X icon.svg" alt="" /></a>
+                                    </div>
+                                </div>
+                                <div class="border-line"></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <div class="footer-section-3">
+                                <div class="section-heading px-5">
+                                    <span>Quick Links</span>
+                                    <div></div>
+                                </div>
+                                <div class="list-items">
+                                    <ul>
+                                        <li><a href="about.html">About Us</a></li>
+                                        <li><a href="/">Statistics</a></li>
+                                        <li><a href="/">Our Business in Brief</a></li>
+                                        <li><a href="/">Business Portal</a></li>
+                                        <li><a href="/">FAQs</a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="footer-section-3">
+                                <div class="section-heading">
+                                    <span>Key Partners</span>
+                                    <div></div>
+                                </div>
+                                <div class="list-items">
+                                    <ul>
+                                        <li><a href="/">Jamaica Customs Agency</a></li>
+                                        <li>
+                                            <a href="/about.html">Shipping Association of Jamaica</a>
+                                        </li>
+                                        <li><a href="/">Special Economic Zones</a></li>
+                                        <li><a href="/">Port Community Systems</a></li>
+                                        <li><a href="/">eGov Jamaica</a></li>
+                                    </ul>
+                                </div>
+                                <div class="border-line"></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="border-line-3"></div>
+                            <div class="footer-section-4">
+                                <div class="section-heading">
+                                    <span>Contact Info</span>
+                                    <div></div>
+                                </div>
+                                <div class="list-items">
+                                    <ul>
+                                        <li>
+                                            <div class="d-flex gap-3">
+                                                <div class="section4-icon">
+                                                    <a href="/"><img src="../assets/images/location icon.svg"
+                                                            alt="" /></a>
+                                                </div>
+                                                <a href="/">+123-456-7990</a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="d-flex gap-3">
+                                                <div class="section4-icon">
+                                                    <a href="/"><img src="../assets/images/email icon.svg" alt="" /></a>
+                                                </div>
+                                                <a href="/">Michelle.Rivera@Example.com</a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="d-flex gap-3">
+                                                <div class="section4-icon">
+                                                    <a href="/" class="d-flex"><img
+                                                            src="../assets/images/phone icon.svg" alt="" /></a>
+                                                </div>
+                                                <a href="/">2972 Westheimer Rd. Santa Ana,
+                                                    Illinois 85486 </a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <button class="chatbot-btn">
+                                    <div class="chatbot">
+                                        <img src="../assets/images/chatbot.svg" alt="">
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-section py-4">
+                <p>© Copyright Cruise Jamaica 2024 | All Rights Reserved | Powered by Unicore Online</p>
+            </div>
+        </footer>
+    </div>
+    <script src="../js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var offcanvasTrigger = document.querySelector(".menu-icon");
+            var offcanvasNavbar = new bootstrap.Offcanvas(
+                document.getElementById("offcanvasNavbar")
+            );
+
+            offcanvasTrigger.addEventListener("click", function () {
+                offcanvasNavbar.toggle();
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var offcanvasTrigger = document.querySelector(".menu-icon");
+            var offcanvasNavbar = new bootstrap.Offcanvas(
+                document.getElementById("offcanvasNavbar")
+            );
+
+            offcanvasTrigger.addEventListener("click", function () {
+                offcanvasNavbar.toggle();
+            });
+        });
+    </script>
+    <script>
+        function toggleDropdown() {
+            var dropdownContent = document.getElementById("dropdown-content");
+            dropdownContent.classList.toggle("show");
+        }
+
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropdown-btn')) {
+                var dropdowns = document.getElementsByClassName('dropdown-content');
+                for (var i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+    <script>
+        // // things
+        // let currentThingIndex = 0;
+        // const thingStacks = document.querySelectorAll('.stack');
+
+        // function moveThingSlider(direction) {
+        //     const numThingStacks = thingStacks.length;
+        //     currentThingIndex += direction;
+
+        //     if (currentThingIndex >= numThingStacks) {
+        //         currentThingIndex = 0;
+        //     } else if (currentThingIndex < 0) {
+        //         currentThingIndex = numThingStacks - 1;
+        //     }
+
+        //     thingStacks.forEach((stack, index) => {
+        //         if (index === currentThingIndex) {
+        //             stack.style.transform = 'translateX(0)';
+        //         } else if (index < currentThingIndex) {
+        //             stack.style.transform = 'translateX(-100%)';
+        //         } else {
+        //             stack.style.transform = 'translateX(100%)';
+        //         }
+        //     });
+        // }
+
+        // document.querySelector('.next').addEventListener('click', () => moveThingSlider(1));
+        // document.querySelector('.previous').addEventListener('click', () => moveThingSlider(-1));
+
+        // schedules
+        // let currentScheduleIndex = 0;
+        // const scheduleSlides = document.querySelector('.schedules');
+        // const scheduleSlideCount = document.querySelectorAll('.rectangle').length;
+        // const scheduleSlideWidth = document.querySelector('.rectangle').offsetWidth;
+
+        // function moveScheduleSlider(direction) {
+        //     currentScheduleIndex += direction;
+
+        //     if (currentScheduleIndex < 0) {
+        //         currentScheduleIndex = scheduleSlideCount - 1;
+        //     } else if (currentScheduleIndex >= scheduleSlideCount) {
+        //         currentScheduleIndex = 0;
+        //     }
+
+        //     scheduleSlides.style.transform = `translateX(${-currentScheduleIndex * scheduleSlideWidth}px)`;
+        // }
+
+        $(document).ready(function () {
+            let currentIndex = 0;
+
+            function showSlide(index) {
+                let slides = $(".rectangle");
+                slides.hide();
+                slides.eq(index).show();
+            }
+
+            showSlide(currentIndex);
+
+            $(".prev").click(function () {
+                currentIndex =
+                    currentIndex === 0 ? $(".rectangle").length - 1 : currentIndex - 1;
+                showSlide(currentIndex);
+            });
+
+            $(".next").click(function () {
+                currentIndex =
+                    currentIndex === $(".rectangle").length - 1 ? 0 : currentIndex + 1;
+                showSlide(currentIndex);
+            });
+        });
+
+    </script>
+    <!-- <script src="../js/testimonials.js"></script> -->
+
+</body>
+
+</html>
